@@ -39,7 +39,6 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(title: const Text('Catalog App'),),
       
       body: Center(child: Container(child:Text(searchVegitableShops(message: 'Search Vegitable Method Called')),),),
-            
       
       drawer: const Drawer(),
     );
